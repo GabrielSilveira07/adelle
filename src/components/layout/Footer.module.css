@@ -1,0 +1,8 @@
+.foot { background: var(--branco); }
+.foot :global(.wrap) { padding-block: 0 calc(36px + env(safe-area-inset-bottom, 0px)); }
+.grid { padding-top: 18px; border-top: 1px solid var(--line); row-gap: 20px; }
+.grid > div { grid-column: span 3; display: flex; flex-direction: column; gap: 4px; }
+@media (max-width: 960px) {
+  .foot :global(.wrap) { padding-top: 24px; }
+  .grid > div { grid-column: span 6; }
+}

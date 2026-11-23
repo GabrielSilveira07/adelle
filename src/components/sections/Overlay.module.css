@@ -1,0 +1,10 @@
+/* Seções de foto em largura total com texto sobreposto (ritual e espaço). */
+.section { position: relative; }
+.dark { background: var(--onix); color: var(--branco); }
+.light { background: linear-gradient(180deg, var(--linho), var(--branco)); }
+.photoRitual { height: clamp(500px, 68vw, 1040px); }
+.photoEspaco { height: clamp(560px, 76vw, 1180px); }
+.over { position: absolute; left: 0; right: 0; bottom: 14%; }
+.copy { grid-column: 1 / 5; display: flex; flex-direction: column; gap: 14px; }
+.copy h2 { font-size: clamp(24px, 2.3vw, 34px); line-height: 1.2; }
+@media (max-width: 960px) { .copy { grid-column: 1 / 13; } }

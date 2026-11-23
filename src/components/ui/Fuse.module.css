@@ -1,0 +1,13 @@
+.fuse {
+  height: clamp(220px, 26vw, 420px);
+  background: linear-gradient(180deg,
+    var(--a) 0%,
+    color-mix(in oklab, var(--a) 96%, var(--b)) 10%,
+    color-mix(in oklab, var(--a) 86%, var(--b)) 22%,
+    color-mix(in oklab, var(--a) 68%, var(--b)) 36%,
+    color-mix(in oklab, var(--a) 46%, var(--b)) 50%,
+    color-mix(in oklab, var(--a) 26%, var(--b)) 64%,
+    color-mix(in oklab, var(--a) 11%, var(--b)) 78%,
+    color-mix(in oklab, var(--a) 3%, var(--b)) 90%,
+    var(--b) 100%);
+}

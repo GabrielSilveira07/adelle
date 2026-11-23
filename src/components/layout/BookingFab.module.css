@@ -1,0 +1,9 @@
+.fab {
+  position: fixed;
+  right: calc(24px + env(safe-area-inset-right, 0px));
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  z-index: 70;
+  background: var(--grafite);
+  color: var(--branco);
+  padding: 16px 22px;
+}
