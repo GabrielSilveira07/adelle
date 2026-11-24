@@ -7,4 +7,9 @@
 .over { position: absolute; left: 0; right: 0; bottom: 14%; }
 .copy { grid-column: 1 / 5; display: flex; flex-direction: column; gap: 14px; }
 .copy h2 { font-size: clamp(24px, 2.3vw, 34px); line-height: 1.2; }
-@media (max-width: 960px) { .copy { grid-column: 1 / 13; } }
+@media (max-width: 960px) {
+  .copy { grid-column: 1 / 13; }
+  .photoRitual { height: clamp(300px, 82vw, 480px); }
+  .photoEspaco { height: clamp(340px, 92vw, 520px); }
+  .over { bottom: 8% !important; }
+}

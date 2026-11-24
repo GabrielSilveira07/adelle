@@ -11,3 +11,4 @@
     color-mix(in oklab, var(--a) 3%, var(--b)) 90%,
     var(--b) 100%);
 }
+@media (max-width: 960px) { .fuse { height: 100px; } }

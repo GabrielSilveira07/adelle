@@ -1,4 +1,5 @@
 .grid { align-items: end; row-gap: 40px; }
+@media (max-width: 960px) { .grid { row-gap: 20px; } }
 .title { grid-column: 1 / 8; font-size: clamp(30px, 3.2vw, 48px); line-height: 1.1; }
 .r { grid-column: 9 / 13; display: flex; flex-direction: column; gap: 22px; align-items: flex-start; }
 @media (max-width: 960px) { .title, .r { grid-column: 1 / 13; } }

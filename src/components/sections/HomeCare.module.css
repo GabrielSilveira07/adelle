@@ -6,7 +6,10 @@
 .r { grid-column: 10 / 13; display: flex; flex-direction: column; gap: 28px; }
 .r > div { display: flex; flex-direction: column; gap: 6px; padding-top: 14px; border-top: 1px solid var(--line); }
 @media (max-width: 960px) {
-  .photo { grid-column: 2 / 12; }
+  .section > :global(.wrap) { padding-bottom: 56px; }
+  .photo { grid-column: 4 / 10; grid-row: 1; margin-top: -40px; }
   .l, .r { grid-column: 1 / 13; }
-  .l { margin-bottom: 24px; }
+  .l { margin-bottom: 28px; }
+  .r { gap: 0; }
+  .r > div { display: grid; grid-template-columns: 90px minmax(0, 1fr); align-items: baseline; gap: 12px; padding-block: 12px; }
 }

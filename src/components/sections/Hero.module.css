@@ -10,7 +10,7 @@
 .grid { height: 100%; align-content: center; padding-bottom: 14%; }
 .brand { grid-column: 1 / 4; display: flex; flex-direction: column; gap: 12px; animation: rise 1.6s 0.2s var(--ease) both; }
 .brand h1 { font-size: clamp(36px, 3.8vw, 60px); line-height: 1; letter-spacing: 0.3em; }
-.brand p { font: 300 clamp(10px, 0.9vw, 12px)/1 var(--f); letter-spacing: 0.5em; color: var(--taupe); }
+.brand p { font: 300 clamp(11px, 0.95vw, 13px)/1 var(--f); letter-spacing: 0.5em; color: var(--taupe); }
 .aside { grid-column: 10 / 13; display: flex; flex-direction: column; gap: 18px; align-self: center; animation: rise 1.6s 0.2s var(--ease) both; }
 .facts { position: absolute; left: 0; right: 0; bottom: clamp(20px, 3vw, 44px); }
 .facts span { grid-column: span 3; color: var(--taupe); }
@@ -21,10 +21,10 @@
 
 @media (max-width: 960px) {
   .hero { height: auto; }
-  .photo { position: relative !important; left: auto; width: auto; transform: none; margin-top: 28px; height: clamp(400px, 108vw, 680px); }
+  .photo { position: relative !important; left: auto; width: auto; transform: none; margin-top: 20px; height: clamp(360px, 96vw, 600px); }
   .photo img { object-position: 57% 0% !important; }
   .facts { display: none; }
   .inner { margin-top: -6vw; }
-  .grid { align-content: start; padding-bottom: 24px; row-gap: 28px; }
+  .grid { align-content: start; padding-bottom: 8px; row-gap: 22px; }
   .brand, .aside { grid-column: 1 / 13; }
 }

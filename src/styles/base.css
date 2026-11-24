@@ -5,7 +5,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--branco);
   color: var(--grafite);
-  font: 300 14px/1.7 var(--f);
+  font: 300 15px/1.7 var(--f);
   -webkit-font-smoothing: antialiased;
 }
 body::before {
@@ -41,8 +41,8 @@ button { font: inherit; color: inherit; }
 .sec > .wrap { padding-block: clamp(72px, 10vw, 150px); }
 
 /* tipografia delicada */
-.lbl { font: 300 10px/1.6 var(--f); letter-spacing: 0.26em; text-transform: uppercase; }
-.sm { font: 300 13px/1.75 var(--f); max-width: 36ch; }
+.lbl { font: 300 11px/1.6 var(--f); letter-spacing: 0.24em; text-transform: uppercase; }
+.sm { font: 300 14.5px/1.75 var(--f); max-width: 38ch; }
 .big { font: 400 clamp(22px, 2vw, 30px)/1.25 var(--fd); }
 .soft { color: var(--taupe); }
 .on-dark .soft { color: var(--pele); }
@@ -50,7 +50,7 @@ button { font: inherit; color: inherit; }
 /* link linear */
 .link {
   display: inline-flex; align-items: center; gap: 14px;
-  font: 300 10px/1 var(--f); letter-spacing: 0.26em; text-transform: uppercase;
+  font: 300 11px/1 var(--f); letter-spacing: 0.24em; text-transform: uppercase;
   cursor: pointer; background: none; border: 0; color: inherit; padding: 8px 0;
 }
 .link::after { content: ""; width: 44px; height: 1px; background: currentColor; transition: width 0.6s var(--ease); }
@@ -81,6 +81,8 @@ button { font: inherit; color: inherit; }
 .head > :first-child { grid-column: 1 / 4; }
 .head > :last-child { grid-column: 10 / 13; text-align: right; }
 @media (max-width: 960px) {
+  .sec > .wrap { padding-block: 64px; }
+  .head { margin-bottom: 32px; }
   .head > :first-child { grid-column: 1 / 7; }
   .head > :last-child { grid-column: 7 / 13; }
 }

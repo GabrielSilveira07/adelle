@@ -46,7 +46,7 @@
 .slots { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 16px; }
 .slot {
   all: unset; cursor: pointer; padding: 14px 0; border-bottom: 1px solid var(--line);
-  font: 300 14px/1 var(--f); font-variant-numeric: tabular-nums;
+  font: 300 15px/1 var(--f); font-variant-numeric: tabular-nums;
   transition: padding 0.5s var(--ease);
 }
 .slot:hover { padding-left: 6px; }

@@ -17,6 +17,7 @@
 @media (max-width: 960px) {
   .row h3 { grid-column: 1 / 11; }
   .go { grid-column: 11 / 13; }
-  .row :global(.sm) { grid-column: 1 / 10; grid-row: 2; margin-top: 8px; }
+  .row { padding-block: 18px; }
+  .row :global(.sm) { grid-column: 1 / 10; grid-row: 2; margin-top: 6px; }
   .row :global(.lbl) { grid-column: 10 / 13; grid-row: 2; justify-self: end; }
 }
