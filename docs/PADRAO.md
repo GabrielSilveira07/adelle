@@ -209,6 +209,7 @@ public/img/       fotos tratadas
 | Retrato recortado com roupa cortada seco | parecia colagem |
 | Fonte usada em outro projeto | identidade precisa ser exclusiva |
 | Seguir o rascunho ao pé da letra | grid ficou pobre; o rascunho indica direção |
+| Faixa de texto corrido em movimento (marquee) | descartada em todos os sites: ruído, não informação |
 
 ---
 
